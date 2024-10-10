@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91a41a31.css",
+    "main.js": "/static/js/main.f65cda7d.js",
+    "static/js/845.e61d76ce.chunk.js": "/static/js/845.e61d76ce.chunk.js",
+    "static/media/group-cheerful-business-people-waiting-room.jpg": "/static/media/group-cheerful-business-people-waiting-room.0e8d658c02a6e7f7b860.jpg",
+    "static/media/group-diverse-people-is-using-digital-devices.jpg": "/static/media/group-diverse-people-is-using-digital-devices.2bcf0146a9867a4d9578.jpg",
+    "static/media/About.png": "/static/media/About.6abb6110762d73031295.png",
+    "static/media/trabalho.png": "/static/media/trabalho.cfc8f83aae09604f1449.png",
+    "static/media/grupo-de-designers-de-interiores-em-reuniao-e-discussao-insight_31965-185097.jpg": "/static/media/grupo-de-designers-de-interiores-em-reuniao-e-discussao-insight_31965-185097.ace37ad56553dd0dafbb.jpg",
+    "static/media/Selo de Segurança.png": "/static/media/Selo de Segurança.e75396cf6f012e319539.png",
+    "static/media/cozinha.jpeg": "/static/media/cozinha.0d377df48dda8677c361.jpeg",
+    "static/media/cientista.jpeg": "/static/media/cientista.70c6e926d1e59e2ed8ef.jpeg",
+    "static/media/logistico.jpeg": "/static/media/logistico.eb1d18cb3109f69945cc.jpeg",
+    "static/media/medico.jpeg": "/static/media/medico.c62a650b968735687823.jpeg",
+    "static/media/bombeiro.jpeg": "/static/media/bombeiro.ef1a38dbeac92d9f14c3.jpeg",
+    "static/media/sinergia.avif": "/static/media/sinergia.9e2e16bc61aa749694ed.avif",
+    "static/media/Mariana.png": "/static/media/Mariana.71f5cac74af875def14d.png",
+    "static/media/Adriana Camargo.png": "/static/media/Adriana Camargo.b3038589d8e1810f4525.png",
+    "static/media/Gabriella Mendes.png": "/static/media/Gabriella Mendes.e4b4adc703deee0319c7.png",
+    "static/media/Rodrigo.png": "/static/media/Rodrigo.4d68000bd898d72ccf57.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.91a41a31.css.map": "/static/css/main.91a41a31.css.map",
+    "main.f65cda7d.js.map": "/static/js/main.f65cda7d.js.map",
+    "845.e61d76ce.chunk.js.map": "/static/js/845.e61d76ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91a41a31.css",
+    "static/js/main.f65cda7d.js"
+  ]
+}

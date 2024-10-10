@@ -1,0 +1,196 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; /* Cor de fundo do cabeçalho */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra do cabeçalho */
+  position: fixed; /* Torna o cabeçalho fixo */
+  top: 0; /* Fica no topo da página */
+  left: 0; /* Fica alinhado à esquerda */
+  width: 100%; /* Ocupa toda a largura da tela */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+}
+
+.logo img {
+  height: 50px; /* Ajuste a altura da logo conforme necessário */
+}
+
+.proposal-button {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Cantos arredondados */
+  padding: 10px 20px; /* Espaçamento interno */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.proposal-button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.hamburger {
+  display: none; /* Oculta o menu hambúrguer por padrão */
+  flex-direction: column;
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  padding: 10px; /* Adiciona espaço ao redor do ícone */
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #f0f0f0; /* Cor de fundo para o botão do menu */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  margin-right: 40px;
+}
+
+.hamburger:hover {
+  background-color: #e0e0e0; /* Muda a cor ao passar o mouse */
+}
+
+.bar {
+  height: 4px; /* Aumenta a altura da barra do menu hambúrguer */
+  width: 30px; /* Aumenta a largura da barra do menu hambúrguer */
+  background-color: #333; /* Cor da barra */
+  margin: 3px 0; /* Espaçamento entre as barras */
+  transition: all 0.3s ease; /* Transição suave para as alterações */
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Fundo escurecido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Para garantir que o diálogo fique acima de outros elementos */
+}
+
+.dialog-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; /* Largura reduzida do diálogo */
+  max-width: 400px; /* Limite de largura do diálogo */
+  height: auto; /* Altura automática */
+  max-height: 80%; /* Altura máxima do diálogo */
+  overflow-y: auto; /* Adiciona rolagem vertical */
+  position: relative;
+}
+
+.close-dialog {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.proposta-container {
+  max-height: 70vh; /* Limite de altura para o conteúdo do Proposta */
+  overflow-y: auto; /* Adiciona rolagem se necessário */
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .nav {
+    position: fixed; /* Posiciona o menu como fixo */
+    top: 0; /* Fica no topo */
+    left: -250px; /* Inicia fora da tela */
+    width: 250px; /* Largura do menu lateral */
+    height: 100%; /* Ocupa toda a altura da tela */
+    background-color: #ffffff; /* Cor de fundo do menu */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
+    transition: left 0.3s ease; /* Transição suave */
+    padding-top: 60px; /* Espaçamento superior para não cobrir o cabeçalho */
+  }
+
+  .nav.open {
+    left: 0; /* Move o menu para a posição visível */
+  }
+
+  .nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margens */
+  }
+
+  .nav ul li {
+    padding: 15px 20px; /* Espaçamento em cada item */
+    border-bottom: 1px solid #f0f0f0; /* Linha separadora entre os itens */
+  }
+
+  .nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte dos itens */
+    display: block; /* Faz o link ocupar toda a largura */
+  }
+
+  .nav ul li a:hover {
+    background-color: #f0f0f0; /* Muda a cor de fundo ao passar o mouse */
+  }
+
+  .hamburger {
+    display: flex; /* Mostra o menu hambúrguer em telas menores */
+    z-index: 1001; /* Garante que o botão esteja acima do menu */
+  }
+}
+
+/* Estilos para telas de desktop */
+@media (min-width: 769px) {
+  .nav {
+    display: flex; /* Exibe o menu em linha */
+    align-items: center; /* Alinha os itens verticalmente */
+    margin-left: auto; /* Alinha o nav à direita */
+  }
+
+  .nav ul {
+    display: flex; /* Exibe a lista em linha */
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margens */
+  }
+
+  .nav ul li {
+    padding: 0 30px; /* Espaçamento horizontal em cada item */
+  }
+
+  .nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte dos itens */
+    transition: color 0.3s ease; /* Transição suave para a cor do texto */
+    position: relative; /* Permite adicionar efeitos pseudo-elemento */
+  }
+
+  .nav ul li a:hover {
+    color: #007bff; /* Muda a cor do texto ao passar o mouse */
+  }
+
+  .nav ul li a::after {
+    content: ''; /* Adiciona um pseudo-elemento */
+    display: block;
+    height: 2px; /* Altura da linha */
+    width: 0; /* Começa com largura 0 */
+    background: #007bff; /* Cor da linha */
+    transition: width 0.3s; /* Transição suave da largura */
+    position: absolute; /* Posiciona o pseudo-elemento */
+    left: 0; /* Alinha à esquerda */
+    bottom: -5px; /* Posiciona abaixo do texto */
+  }
+
+  .nav ul li a:hover::after {
+    width: 100%; /* Aumenta a largura para 100% ao passar o mouse */
+  }
+}

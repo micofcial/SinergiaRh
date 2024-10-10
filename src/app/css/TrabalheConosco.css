@@ -1,0 +1,134 @@
+.trabalhe-conosco {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.trabalhe-conosco__title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.trabalhe-conosco__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.trabalhe-conosco__image {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.trabalhe-conosco__form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.trabalhe-conosco__form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.trabalhe-conosco__input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Borda arredondada */
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 1em;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.trabalhe-conosco__input:focus {
+  border-color: #007bff; /* Cor de destaque ao focar */
+}
+
+.trabalhe-conosco__checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.trabalhe-conosco__checkbox {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.trabalhe-conosco__submit {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Borda arredondada */
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.trabalhe-conosco__submit:hover {
+  background-color: #0056b3;
+}
+
+.trabalhe-conosco__jobs-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 1.5em;
+}
+
+.trabalhe-conosco__job-carousel {
+  display: flex;
+  justify-content: center; /* Centraliza os cards */
+  gap: 20px;
+  flex-wrap: wrap; /* Para garantir que se ajuste bem em diferentes tamanhos de tela */
+}
+
+.trabalhe-conosco__job-card {
+  flex: 0 1 300px; /* Tamanho dos cards */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.trabalhe-conosco__job-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.trabalhe-conosco__job-location {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.trabalhe-conosco__apply-button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Borda arredondada */
+  transition: background-color 0.3s ease;
+}
+
+.trabalhe-conosco__apply-button:hover {
+  background-color: #0056b3;
+}
