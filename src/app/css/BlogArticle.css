@@ -1,0 +1,70 @@
+/* src/css/Blog.css */
+.blog {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px; /* Add more padding */
+  text-align: center;
+}
+
+.blog__title {
+  font-size: 2.5rem;
+  margin-bottom: 40px; /* Increased margin */
+  color: #333; /* Darker title color */
+  font-weight: bold;
+}
+
+.blog__articles {
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+}
+
+.blog__card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent overflow from image */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.blog__card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+}
+
+.blog__image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.blog__content {
+  padding: 15px; /* Add padding to content */
+}
+
+.blog__article-title {
+  font-size: 1.75rem; /* Increased title size */
+  margin: 10px 0;
+  color: #007bff; /* Primary color for titles */
+}
+
+.blog__description {
+  font-size: 1rem;
+  color: #666; /* Gray color for description */
+  margin-bottom: 15px; /* Space before button */
+}
+
+.blog__read-more {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.blog__read-more:hover {
+  background: #0056b3; /* Darker blue on hover */
+}

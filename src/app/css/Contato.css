@@ -1,0 +1,119 @@
+/* src/css/Contato.css */
+.contato {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    text-align: center;
+  }
+  
+  .contato__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contato__container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Space between map and form */
+    margin-bottom: 40px;
+  }
+  
+  .contato__map {
+    flex: 1;
+    min-width: 300px; /* Minimum width for the map */
+    margin-right: 20px; /* Space to the right of the map */
+  }
+  
+  .contato__map-container {
+    height: 400px; /* Set a fixed height for the map */
+  }
+  
+  .contato__form {
+    flex: 1;
+    min-width: 300px; /* Minimum width for the form */
+    border: 1px solid #e0e0e0; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    background: #fff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .contato__form-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff; /* Primary color */
+  }
+  
+  .contato__form label {
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .contato__input,
+  .contato__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .contato__textarea {
+    height: 100px; /* Set a height for the textarea */
+  }
+  
+  .contato__submit {
+    background: #007bff; /* Button color */
+    color: #fff; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background 0.3s; /* Smooth transition */
+    margin-top: 15px; /* Space above button */
+    width: 100%; /* Full width for button */
+  }
+  
+  .contato__submit:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  
+  .contato__social {
+    margin-top: 40px; /* Space above social icons */
+  }
+  
+  .contato__social-title {
+    font-size: 2rem; /* Title size */
+    margin-bottom: 20px; /* Spacing */
+  }
+  
+  .contato__social-icons {
+    display: flex;
+    justify-content: center; /* Center icons */
+  }
+  
+  .contato__social-icon {
+    margin: 0 10px; /* Space between icons */
+  }
+  
+  .contato__social-icon img {
+    width: 40px; /* Set a width for social icons */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contato__container {
+      flex-direction: column; /* Stack map and form vertically */
+      align-items: center; /* Center items */
+    }
+  
+    .contato__map {
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 20px; /* Add space below map */
+    }
+  }
+  
